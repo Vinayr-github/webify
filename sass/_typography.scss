@@ -1,0 +1,37 @@
+.heading-1 {
+    font-size: 3.6rem;
+    font-weight: 300;
+    line-height: 1.2;
+
+    &__white {
+        color: $color-white;
+    }
+
+    &__grey {
+        color: $color-grey-dark-1;
+    }
+}
+
+.heading-2 {
+    font-size: 3rem;
+    font-weight: 300;
+
+    &__white {
+        color: $color-white;
+    }
+
+    &__dark {
+        color: $color-grey-dark-2;
+    }
+}
+
+.heading-3 {
+    font-size: 1.8rem;
+    color: $color-grey-dark-2;
+    font-weight: 400;
+}
+
+.heading-4 {
+    font-size: 1.7rem;
+    font-weight: 300;
+}

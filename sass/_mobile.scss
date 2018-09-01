@@ -1,0 +1,52 @@
+.mobile {
+
+    &__box {
+        max-width: $primary-width;
+        margin: 0 auto;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    &__content {
+        width: 50rem;
+        
+    }
+
+    &__heading {
+        margin-top: 5rem;
+        margin-left: 8rem;
+        font-size: 3.2rem;
+        font-weight: 300;
+        line-height: 1.2;
+    }
+
+    &__img {
+        margin-top: 2rem;
+        margin-left: 8rem;
+        
+        .iphone, .android{
+            display: inline-block;
+            width: 15rem;
+            height: 7rem;
+            cursor: pointer;
+        }
+
+        .android {
+            margin-left: 1.5rem;
+        }
+    }
+
+    &__phone-img {
+        width: 30rem;
+        height: 60rem;
+        margin-left: 10rem;
+        margin-top: 5rem;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
