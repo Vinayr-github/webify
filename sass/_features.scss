@@ -1,10 +1,15 @@
 .features {
 
+    //FEATURE HEADING
+
     &__heading {
         h1 {
             display: inline-block;
         }
     }
+
+
+    //FEATURE CONTAINER 
 
     &__box {
         max-width: $primary-width;

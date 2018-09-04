@@ -1,9 +1,13 @@
+// HEADER
+
 .header {
     background-image: linear-gradient(rgba($color-black, .9), rgba($color-black, .9)),
                       url(../img/hero-background.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+    // NAVIGATION
 
     .nav-box {
 

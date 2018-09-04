@@ -1,3 +1,5 @@
+//BUTTONS
+
 .btn {
     display: inline-block;
     text-decoration: none;
@@ -7,6 +9,8 @@
     font-weight: 400;
     letter-spacing: .5px;
     border-radius: 3px;
+
+    //BUTTON - CTA
 
     &__cta {
         &:link,
@@ -22,6 +26,9 @@
             background-color: darken($color-primary, 10);
         }
     }
+
+
+    //BUTTON - GHOST
 
     &__ghost {
         &:link,

@@ -4,6 +4,8 @@
     height: 100vh;
 }
 
+//FEATURES
+
 .features {
     max-width: $primary-width;
     margin: 0 auto;
@@ -11,22 +13,29 @@
     
 }
 
+
+//WORKS
+
 .work {
     max-width: 100%;
     background-color: $color-grey-light-1;
     padding: 4rem 0 8rem 0;
 }
 
+// PLANS
 .plans {
     width: 100%;
     padding-bottom: 4rem;
 }
 
+// MOBILE APP
 .mobile {
     width: 100%;
     background-color: $color-grey-light-1;
     padding: 4rem 0 8rem 0;
 }
+
+// REVIEWS
 
 .testimonials {
     width: 100%;
@@ -38,11 +47,17 @@
     background-attachment: fixed;
 }
 
+
+// FORM
+
 .contact-form {
     width: 100%;
     padding: 6rem 0 8rem 0;
     background-color: $color-grey-light-1;
 }
+
+
+// FOOTER
 
 .footer {
     width: 100%;
